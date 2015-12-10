@@ -18,6 +18,8 @@ com.pattern.singleton.ver1.Printer@364c52c2 printer: 4- user is using...
 
 그래서 클래스를 동기화 시켜서 사용하면 해결할 수 있다 syncronized
 
+static method와 singleton pattern과의 차이는 뭘까 static method 는 override가 안됨
+
 
  */
 public class Printer {
@@ -26,7 +28,7 @@ public class Printer {
 
     }
     public static Printer getInstance() {
-        synchronized (Printer.class) {
+        synchronized (Printer.class) { // 얘가 static method이기 때문에 synchronized(this) 안됨.
             if(instance == null) {
                 try{Thread.sleep(1);}catch (Exception e){}
                 instance = new Printer();
@@ -35,7 +37,13 @@ public class Printer {
         return instance;
     }
 
-    public void print(String msg) {
+    public void print(String msg, long time) {
+        try{
+            Thread.sleep(5000);
+        }catch (Exception e) {}
         System.out.printf("%s printer: %s \n", this, msg);
+        long endTime = System.currentTimeMillis();
+        System.out.printf("print time : %d \n", endTime-time);
+
     }
 }

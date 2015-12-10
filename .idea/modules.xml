@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BallStrategy/BallStrategy.iml" filepath="$PROJECT_DIR$/BallStrategy/BallStrategy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StrategyPattern/Pattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommandPattern/CommandPattern.iml" filepath="$PROJECT_DIR$/CommandPattern/CommandPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CompositePattern/CompositePattern.iml" filepath="$PROJECT_DIR$/CompositePattern/CompositePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$//StatePattern.iml" filepath="$PROJECT_DIR$//StatePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonPrinter/SingletonPrinter.iml" filepath="$PROJECT_DIR$/SingletonPrinter/SingletonPrinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatePattern/StatePattern.iml" filepath="$PROJECT_DIR$/StatePattern/StatePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatePatternExample/StatePatternExample.iml" filepath="$PROJECT_DIR$/StatePatternExample/StatePatternExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyPattern/Pattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/Pattern.iml" />
     </modules>
   </component>
 </project>
